@@ -46,7 +46,7 @@ static int parse_argv(int argc, char **argv)
 		option_index = 0;
 
 		// Try to parse a new option
-		c = getopt_long(argc, argv, "b:k:C:h", long_options, &option_index);
+		c = getopt_long(argc, argv, "g:k:C:h", long_options, &option_index);
 
 		// Detect the end of the options
 		if (c == -1) break;
